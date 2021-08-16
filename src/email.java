@@ -6,7 +6,7 @@ public class email {
     public static void main(String[] args) throws FileNotFoundException {
         PrintStream out = new PrintStream(new FileOutputStream("output.csv"));
         System.setOut(out);
-        for (int i = 0; i < 30545454; i++) { //задаем необходимое количество emails
+        for (float i = 0; i < 454454; i++) { //задаем необходимое количество emails
             System.out.println(getString()+"@" + getDomain());
         }
     }
